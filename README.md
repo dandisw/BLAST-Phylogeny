@@ -40,18 +40,18 @@ blast_project/
 
 ## Cara Menjalankan
 
-### Di VS Code (paling mudah)
+### VS Code
 1. Buka folder `blast_project/` di VS Code
 2. Tekan **F5** → pilih konfigurasi yang diinginkan
 3. Edit email di `launch.json` sebelum menjalankan
 
-### Di Terminal — Mode Interaktif
+### Terminal — Mode Interaktif
 ```bash
 python src/identifier.py
 ```
 Program akan menampilkan menu interaktif untuk input email, database, sekuens, dll.
 
-### Di Terminal — CLI Langsung
+### Terminal — CLI Langsung
 ```bash
 # Sekuens tunggal
 python src/identifier.py \
